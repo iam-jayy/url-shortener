@@ -1,0 +1,23 @@
+{
+  "name": "ShortLink",
+  "version": "1.0",
+  "description": "🔗 ShortLink A link url shortener. You can short url of current opened tab or you can enter own url.",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "page": "bg.html",
+    "peristent": "true"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "icon-link-48.png"
+    }
+  },
+  "icons": {
+    "16": "icon-link-48.png",
+    "32": "icon-link-48.png",
+    "48": "icon-link-48.png",
+    "128": "icon-link-48.png"
+  },
+  "manifest_version": 2
+}
